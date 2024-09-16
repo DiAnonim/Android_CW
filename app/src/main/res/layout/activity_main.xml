@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClickMenuButton"
+        android:text="Calculator" />
+
+    <Button
+        android:id="@+id/buttonLesson4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson4"
+        android:text="Lesson-4" />
+
+    <Button
+        android:id="@+id/buttonLesson5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson5"
+        android:text="Lesson-5" />
+
+    <Button
+        android:id="@+id/buttonLesson6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson6"
+        android:text="Lesson-6" />
+
+    <Button
+        android:id="@+id/buttonLesson6CW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson6CW"
+        android:text="Lesson-6 ClassWork" />
+
+    <Button
+        android:id="@+id/buttonLesson7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson7"
+        android:text="Lesson-7" />
+
+    <Button
+        android:id="@+id/buttonLesson8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson8"
+        android:text="Lesson-8" />
+    <Button
+        android:id="@+id/buttonLesson9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson9"
+        android:text="Lesson-9" />
+
+    <Button
+        android:id="@+id/buttonLesson10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson10"
+        android:text="Lesson-10" />
+
+</LinearLayout>

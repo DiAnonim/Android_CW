@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivityCalc">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="ClickPlus"
+        android:rotation="0"
+        android:text="+"
+        android:translationX="-52dp" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="ClickMinus"
+        android:text="-"
+        android:translationX="52dp"
+        android:translationY="-48dp" />
+
+    <Button
+        android:id="@+id/buttonMult"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="ClickMult"
+        android:text="*"
+        android:translationX="-52dp"
+        android:translationY="-48dp" />
+
+    <Button
+        android:id="@+id/buttonDivision"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="ClickDivision"
+        android:text="/"
+        android:translationX="52dp"
+        android:translationY="-96dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        android:translationY="-96dp" />
+</LinearLayout>

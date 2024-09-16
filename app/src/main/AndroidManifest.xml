@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/less7cook"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/less7cook"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lesson3"
+        tools:targetApi="31">
+        <activity
+            android:name=".Lesson10.Profile_Lesson10"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson10.MainActivity_Lesson10"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson9.MainActivity_Lesson9"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson8.MainActivity_Lesson8"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson7.Lesson7Main"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson6_ClassWork.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson6_ClassWork.CreateAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson6_ClassWork.Less6_CW1"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson6.Lesson6_Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson5.Lesson5Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson4.Lesson4Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson4.Lesson4Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivityCalc"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson6_ClassWork.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Lesson9.MusicService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Lesson9.MusicControlReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="ACTION_PLAY" />
+                <action android:name="ACTION_PAUSE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

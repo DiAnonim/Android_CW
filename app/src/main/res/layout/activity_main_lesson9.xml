@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lesson9.MainActivity_Lesson9">
+
+    <ImageView
+        android:id="@+id/imageView_less9"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/notes_less9" />
+
+    <Button
+        android:id="@+id/btn_startMusic_less9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Music"
+        android:drawableLeft="@drawable/baseline_play_circle_outline_24"
+        android:background="@drawable/button_style_lesson9"
+        android:layout_marginBottom="20dp"
+        android:textColor="#00FF72"/>
+
+    <Button
+        android:id="@+id/btn_stopMusic_less9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F26772"
+        android:background="@drawable/button_style_lesson9"
+        android:drawableLeft="@drawable/baseline_stop_circle_24"
+        android:text="Stop Music" />
+
+
+</LinearLayout>

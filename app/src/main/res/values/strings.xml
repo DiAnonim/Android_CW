@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson-3</string>
+    <string name="username">Enter your name</string>
+    <string name="saveButton">Save Data</string>
+    <string name="enter_age">Enter your age</string>
+    <string name="city">Enter City</string>
+</resources>
