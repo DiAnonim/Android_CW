@@ -11,6 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import kz.example.lesson_3.Lesson10.MainActivity_Lesson10;
+import kz.example.lesson_3.Lesson11.MainActivity_Lesson11;
+import kz.example.lesson_3.Lesson12.MainActivity_Lesson12;
 import kz.example.lesson_3.Lesson4.Lesson4Activity1;
 import kz.example.lesson_3.Lesson5.Lesson5Activity1;
 import kz.example.lesson_3.Lesson6.Lesson6_Activity1;
@@ -76,6 +78,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickLesson10(View view){
         Intent intent = new Intent(MainActivity.this, MainActivity_Lesson10.class);
+        startActivity(intent);
+    }
+
+    public void onClickLesson11(View view){
+        Intent intent = new Intent(MainActivity.this, MainActivity_Lesson11.class);
+        startActivity(intent);
+    }
+
+    public void onClickLesson12(View view){
+        Intent intent = new Intent(MainActivity.this, MainActivity_Lesson12.class);
         startActivity(intent);
     }
 }

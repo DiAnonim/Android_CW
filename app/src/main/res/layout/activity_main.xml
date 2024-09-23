@@ -72,4 +72,18 @@
         android:onClick="onClickLesson10"
         android:text="Lesson-10" />
 
+    <Button
+        android:id="@+id/buttonLesson11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson11"
+        android:text="Lesson-11" />
+
+    <Button
+        android:id="@+id/buttonLesson12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLesson12"
+        android:text="Lesson-12" />
+
 </LinearLayout>
