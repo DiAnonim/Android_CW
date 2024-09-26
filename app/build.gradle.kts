@@ -37,7 +37,16 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.0")
 
     implementation("com.squareup.picasso:picasso:2.8")
-    implementation("com.google.android.material:material:1.12.0")
+//    implementation("com.google.android.material:material:1.12.0")
+
+//    dagger
+    implementation("com.google.dagger:dagger:2.52")
+    annotationProcessor("com.google.dagger:dagger-compiler:2.52")
+
+//    koin
+//    implementation("io.insert-koin:koin-core:3.4.0")
+//    implementation("io.insert-koin:koin-java:3.4.0")
+//    implementation("io.insert-koin:koin-android:3.4.0")
 
     implementation(libs.appcompat)
     implementation(libs.material)
@@ -46,4 +55,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }
