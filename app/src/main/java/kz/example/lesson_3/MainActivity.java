@@ -14,14 +14,17 @@ import kz.example.lesson_3.Lesson10.MainActivity_Lesson10;
 import kz.example.lesson_3.Lesson11.MainActivity_Lesson11;
 import kz.example.lesson_3.Lesson12.MainActivity_Lesson12;
 import kz.example.lesson_3.Lesson13.MainActivity_Lesson13;
+import kz.example.lesson_3.Lesson14.view.MainActivity_Lesson14;
+import kz.example.lesson_3.Lesson15.MainActivity_Lesson15;
+import kz.example.lesson_3.Lesson16.MainActivity_Lesson16;
 import kz.example.lesson_3.Lesson4.Lesson4Activity1;
 import kz.example.lesson_3.Lesson5.Lesson5Activity1;
 import kz.example.lesson_3.Lesson6.Lesson6_Activity1;
 import kz.example.lesson_3.Lesson6_ClassWork.Less6_CW1;
-import kz.example.lesson_3.Lesson6_ClassWork.SplashActivity;
 import kz.example.lesson_3.Lesson7.Lesson7Main;
 import kz.example.lesson_3.Lesson8.MainActivity_Lesson8;
 import kz.example.lesson_3.Lesson9.MainActivity_Lesson9;
+import kz.example.lesson_3.homeworks.hw2.MainActivity_hw2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -94,6 +97,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickLesson13(View view){
         Intent intent = new Intent(MainActivity.this, MainActivity_Lesson13.class);
+        startActivity(intent);
+    }
+
+    public void onClickLesson14(View view){
+        Intent intent = new Intent(MainActivity.this, MainActivity_Lesson14.class);
+        startActivity(intent);
+    }
+
+    public void onClickLesson15(View view){
+        Intent intent = new Intent(MainActivity.this, MainActivity_Lesson15.class);
+        startActivity(intent);
+    }
+
+    public void onClickLesson16(View view){
+        Intent intent = new Intent(MainActivity.this, MainActivity_Lesson16.class);
+        startActivity(intent);
+    }
+
+    public void onClickHomeWork2(View view){
+        Intent intent = new Intent(MainActivity.this, MainActivity_hw2.class);
         startActivity(intent);
     }
 }

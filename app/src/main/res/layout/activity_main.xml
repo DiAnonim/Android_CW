@@ -10,87 +10,130 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonMenu"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ClickMenuButton"
-        android:text="Calculator" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/buttonLesson4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson4"
-        android:text="Lesson-4" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/buttonLesson5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson5"
-        android:text="Lesson-5" />
+            <Button
+                android:id="@+id/buttonMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ClickMenuButton"
+                android:text="Calculator" />
 
-    <Button
-        android:id="@+id/buttonLesson6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson6"
-        android:text="Lesson-6" />
+            <Button
+                android:id="@+id/buttonLesson4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson4"
+                android:text="Lesson-4" />
 
-    <Button
-        android:id="@+id/buttonLesson6CW"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson6CW"
-        android:text="Lesson-6 ClassWork" />
+            <Button
+                android:id="@+id/buttonLesson5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson5"
+                android:text="Lesson-5" />
 
-    <Button
-        android:id="@+id/buttonLesson7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson7"
-        android:text="Lesson-7" />
+            <Button
+                android:id="@+id/buttonLesson6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson6"
+                android:text="Lesson-6" />
 
-    <Button
-        android:id="@+id/buttonLesson8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson8"
-        android:text="Lesson-8" />
-    <Button
-        android:id="@+id/buttonLesson9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson9"
-        android:text="Lesson-9" />
+            <Button
+                android:id="@+id/buttonLesson6CW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson6CW"
+                android:text="Lesson-6 ClassWork" />
 
-    <Button
-        android:id="@+id/buttonLesson10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson10"
-        android:text="Lesson-10" />
+            <Button
+                android:id="@+id/buttonLesson7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson7"
+                android:text="Lesson-7" />
 
-    <Button
-        android:id="@+id/buttonLesson11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson11"
-        android:text="Lesson-11" />
+            <Button
+                android:id="@+id/buttonLesson8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson8"
+                android:text="Lesson-8" />
 
-    <Button
-        android:id="@+id/buttonLesson12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson12"
-        android:text="Lesson-12" />
+            <Button
+                android:id="@+id/buttonLesson9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson9"
+                android:text="Lesson-9" />
 
-    <Button
-        android:id="@+id/buttonLesson13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickLesson13"
-        android:text="Lesson-13" />
+            <Button
+                android:id="@+id/buttonLesson10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson10"
+                android:text="Lesson-10" />
+
+            <Button
+                android:id="@+id/buttonLesson11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson11"
+                android:text="Lesson-11" />
+
+            <Button
+                android:id="@+id/buttonLesson12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson12"
+                android:text="Lesson-12" />
+
+            <Button
+                android:id="@+id/buttonLesson13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson13"
+                android:text="Lesson-13" />
+
+            <Button
+                android:id="@+id/buttonLesson14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson14"
+                android:text="Lesson-14" />
+
+            <Button
+                android:id="@+id/buttonLesson15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson15"
+                android:text="Lesson-15" />
+
+            <Button
+                android:id="@+id/buttonHomeWork2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickHomeWork2"
+                android:text="Homework 2" />
+
+            <Button
+                android:id="@+id/buttonLesson16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLesson16"
+                android:text="Lesson-16" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
